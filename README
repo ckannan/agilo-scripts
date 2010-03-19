@@ -3,9 +3,13 @@ Sample Usage:
 
 # Create Task
 
-sh create-task.sh http://trac-hostname:trac-port/trac-instance username password "task summary" "task reporter" "task description" "remaining time" 
+sh create-task.sh http://trac-hostname:trac-port/trac-instance \
+	username password "task summary" "task reporter" \
+	"task description" "remaining time" 
 
 # Create Story
 
-sh create-story.sh  http://trac-hostname:trac-port/trac-instance username password "story summary" "story reporter" "story description" 
+sh create-story.sh  http://trac-hostname:trac-port/trac-instance \
+	username password "story summary" "story reporter" \
+	"story description" 
 
